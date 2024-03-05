@@ -1,0 +1,63 @@
+:root {
+    --mainfont: "Poppins", sans-serif;;
+}
+
+header{
+    max-width: 100%;
+    height: 900px;
+        margin: 0 auto;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)),
+            url("../ToriGate.png");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 60px 0;
+        
+    }
+
+        
+        
+header h1{
+    font-family: var(--mainfont);
+    color: white;
+    font-size: 96px;
+    font-weight: 700;
+}
+
+header h3{
+    font-family: var(--mainfont);
+    color: white;
+    font-size: 24px;
+}
+
+header h2{font-family: var(--mainfont);
+    color: white;
+    font-size: 40px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-bottom: 20px;}
+
+header button {
+    gap: 10px;
+    padding: 16px 30px 16px 30px;
+    border: none;
+    font: var(--mainfont);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.col .row{
+    position: relative;
+    top: 230px;
+}
+
+.col{
+    line-height: 30px;
+}
+
+.row{
+    line-height:30px;
+    margin-top: 100px;
+}

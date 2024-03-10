@@ -3,7 +3,7 @@
 }
 
 .container{
-    max-width:1400px;
+    max-width:100%;
     margin: 0 auto;
 }
 
@@ -20,6 +20,7 @@
     grid-template-columns: 1fr 2fr 2fr;
 }
 .grid-3-column{
+    margin-top: 20px;
     grid-template-columns: 1fr 1fr 1fr;;
 }
 .img-responsive{
@@ -65,7 +66,9 @@
     text-decoration: none;
 }
 
-
+.instagram-embeds{
+    margin: 30px 0;
+}
 
 body{
     background: #272044;
@@ -74,7 +77,7 @@ body{
 
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-        url("../images/ToriGate.png");
+        url("../images/ToriiGate.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -166,6 +169,7 @@ main h2{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
+    margin: 0;
     letter-spacing: 5px;
     color: #272044;
     opacity: 0.3;
@@ -173,7 +177,7 @@ main h2{
 }
 
 main h3{
-    font-size: 16px;
+    font-size: 40px;
     font-weight: 400;
      line-height: 24px;
      color: #272044;
@@ -236,6 +240,7 @@ section.secondary {
     section {
         padding: 30px;
     }
+   
     .card-header img {
         display: none;
         }
